@@ -22,6 +22,7 @@ p {
   font-size: 14px;
   padding-left: 12px;
 }
+
 a {
   text-decoration: none;
 }
@@ -55,6 +56,33 @@ a {
 .div-for-dropdown {
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.div-for-refresh-options{
+  display: flex;
+  flex-direction: row;
+  vertical-align:center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-for-text-display{
+  min-height: 50vh;
+  outline: 1px dotted white;
+  background-color: #3b3a3970;;
+}
+
+.contact-details{
+  display: flex;
+  align-items: flex-end;
+  min-height: 14vh;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: #e6e3ee41;
+  text-align: left;
+  outline: 1px dotted white;
+  vertical-align: text-bottom;
 }
 .div-for-slider {
   width: 97%;
