@@ -169,6 +169,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     letter-spacing: -.1rem;
     margin-bottom: 1.8rem;
     margin-top: 1.8rem;
+    color: #e6e3ee7c;
   }
   h3 {
     font-size: 3.0rem;
@@ -200,6 +201,10 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   p {
     margin-top: 0;
+    padding-left: 0rem;
+    font-family: "Open Sans";
+    color: #e6e3ee41;
+    text-align: left;
   }
   /* Blockquotes –––––––––––––––––––––––––––––––––––––––––––––––––– */
   blockquote {

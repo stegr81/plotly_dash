@@ -51,37 +51,42 @@ a {
 /* Graph Control Objects ––––––––––––––––––––––––––––––––––––––––––––––––––*/
 .div-user-controls {
   padding-left: 40px;
-  padding-top: 64px;
+  padding-top: 50px;
 }
 .div-for-dropdown {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-.div-for-refresh-options{
+.div-for-side-by-side{
   display: flex;
   flex-direction: row;
   vertical-align:center;
   align-items: center;
   justify-content: space-between;
+  /*outline: 1px dotted white;*/
 }
 
 .div-for-text-display{
-  min-height: 50vh;
+  min-height: 52vh;
+  max-height: 52vh;
   outline: 1px dotted white;
-  background-color: #3b3a3970;;
+  background-color: #1F1F1F;
+  scroll-behavior: auto;
+  border-bottom:10px;
 }
 
 .contact-details{
   display: flex;
   align-items: flex-end;
-  min-height: 14vh;
+  min-height: 13vh;
+  max-height:13vh;
   font-family: "Open Sans";
   font-weight: 400;
-  font-size: 12px;
+  font-size: 2.2rem;
   color: #e6e3ee41;
   text-align: left;
-  outline: 1px dotted white;
+  /*outline: 1px dotted white;*/
   vertical-align: text-bottom;
 }
 .div-for-slider {
