@@ -199,13 +199,13 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     margin-bottom: 0.75rem;
     margin-top: 0.75rem;
   }
-  p {
+  /*p {
     margin-top: 0;
     padding-left: 0rem;
     font-family: "Open Sans";
     color: #e6e3ee41;
     text-align: left;
-  }
+  }*/
   /* Blockquotes –––––––––––––––––––––––––––––––––––––––––––––––––– */
   blockquote {
     border-left: 4px lightgrey solid;
@@ -243,6 +243,8 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     cursor: pointer;
     box-sizing: border-box;
   }
+ 
+
   .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
     color: #f5f1f1;
     border-color: #888;

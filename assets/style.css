@@ -18,9 +18,11 @@ h1, h2, h3, h4, h5 {
 }
 p {
   font-family: "Open Sans";
+  color: #e6e3eea9;
   font-weight: 400;
   font-size: 14px;
-  padding-left: 12px;
+  padding-left: 0px;
+  text-align: left;
 }
 
 a {
@@ -64,23 +66,39 @@ a {
   vertical-align:center;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 12px;
+  padding-top: 12px;
   /*outline: 1px dotted white;*/
 }
 
 .div-for-text-display{
-  min-height: 52vh;
-  max-height: 52vh;
+  min-height: 35vh;
+  max-height: 35vh;
   outline: 1px dotted white;
   background-color: #1F1F1F;
   scroll-behavior: auto;
   border-bottom:10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.div-for-text-updates{
+  min-height: 2vh;
+  max-height: 2vh;
+  /*outline: 1px dotted white;*/
+  background-color: #1f1f1f;
+  scroll-behavior: auto;
+  border-bottom:10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color:#e6e3eea9;
 }
 
 .contact-details{
   display: flex;
   align-items: flex-end;
-  min-height: 13vh;
-  max-height:13vh;
+  min-height: 12vh;
+  max-height:12vh;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 2.2rem;
@@ -88,6 +106,20 @@ a {
   text-align: left;
   /*outline: 1px dotted white;*/
   vertical-align: text-bottom;
+}
+
+.fdi-details{
+  display: flex;
+  align-items: flex-end;
+  min-height: 5vh;
+  max-height:5vh;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: #e6e3ee41;
+  text-align: left;
+  /*outline: 1px dotted white;*/
+  vertical-align:middle;
 }
 .div-for-slider {
   width: 97%;
