@@ -97,8 +97,8 @@ a {
 .contact-details{
   display: flex;
   align-items: flex-end;
-  min-height: 12vh;
-  max-height:12vh;
+  min-height: 9vh;
+  max-height:9vh;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 2.2rem;
